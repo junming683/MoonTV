@@ -20,5 +20,3 @@ export async function GET(request) {
     return NextResponse.json({ error: 'Failed to ping database' }, { status: 500 });
   }
 }
-```5.  **提交文件**：
-*   拉到页面底部，点击绿色的 `Commit new file` 按钮。
